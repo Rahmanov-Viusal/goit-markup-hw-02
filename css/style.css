@@ -1,1 +1,33 @@
-
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+ul {
+  list-style: none;
+}
+.name-company .text {
+  color: #2196f3;
+}
+.name-company {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+.site-nav a {
+  color: #212121;
+}
+.contact a {
+  color: #757575;
+}
+.contact :hover,
+.contact :focus {
+  color: #2196f3;
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: #2196f3;
+}
