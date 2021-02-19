@@ -1,3 +1,8 @@
+:root {
+  --desc-text-color: #757575;
+  --bg-button-color: #2196f3;
+  --button-color: #ffffff;
+}
 body {
   background-color: #ffffff;
   color: #212121;
@@ -30,4 +35,11 @@ ul {
 .site-nav :hover,
 .site-nav :focus {
   color: #2196f3;
+}
+.feature-list .text {
+  color: var(--desc-text-color);
+}
+.button {
+  color: var(--button-color);
+  background-color: var(--bg-button-color);
 }
