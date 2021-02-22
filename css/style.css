@@ -3,15 +3,21 @@
   --bg-button-color: #2196f3;
   --button-color: #ffffff;
   --nav-color: #212121;
+  --bg-button-filter: #f5f4fa;
+  --project-title-color: #212121;
 }
+
+/* вся страница */
 body {
   background-color: #ffffff;
   color: var(--nav-color);
   font-family: Roboto, sans-serif;
 }
+/* все списки */
 ul {
   list-style: none;
 }
+/* название компании */
 .name-company .text {
   color: #2196f3;
   font-family: Raleway;
@@ -24,6 +30,8 @@ ul {
   line-height: 1.2;
   text-decoration: none;
 }
+
+/* навигация в шапке */
 .site-nav a {
   color: var(--nav-color);
   font-weight: 500;
@@ -32,6 +40,12 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.site-nav :hover,
+.site-nav :focus {
+  color: #2196f3;
+}
+
+/* контакты в шапке и подвале */
 .contact a {
   color: #757575;
   text-decoration: none;
@@ -45,14 +59,18 @@ ul {
 .contact :focus {
   color: #2196f3;
 }
-.site-nav :hover,
-.site-nav :focus {
-  color: #2196f3;
+
+/* заголовок в hero */
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
 }
-.feature-list .text {
-  color: var(--desc-text-color);
-}
-.button {
+
+/* кнопка в секции hero */
+.button-hero {
   color: var(--button-color);
   background-color: var(--bg-button-color);
   font-family: inherit;
@@ -61,12 +79,10 @@ ul {
   font-size: 16px;
   line-height: 1.8;
 }
-.hero h1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
 
-  text-align: center;
+/* секция "о нас" */
+.feature-list .text {
+  color: var(--desc-text-color);
 }
 .section-title {
   font-weight: 900;
@@ -75,27 +91,71 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/* подзаголовки секции "о нас" */
 .feature-list .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
+
+/* текст в секции "о нас" */
 .feature-list .text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+/* специальности команды */
 .section-team .text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/* имена разработчиков */
 .section-team h3 {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* стили для второй страницы */
+
+/* кнопки фильтра */
+.button .filter {
+  background: var(--bg-button-filter);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* кнопки после наведения */
+.button .filter:hover {
+  color: var(--button-color);
+  background: var(--bg-button-color);
+}
+
+/* заголовки под картинками */
+.project .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--project-title-color);
+}
+
+/* текст под картинками */
+.project p {
+  color: var(--desc-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
