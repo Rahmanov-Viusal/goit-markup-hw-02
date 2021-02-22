@@ -124,7 +124,13 @@ ul {
   letter-spacing: 0.03em;
 }
 
-/* стили для второй страницы */
+/*
+
+
+
+
+
+стили для второй страницы*/
 
 /* кнопки фильтра */
 .button .filter {
@@ -158,4 +164,7 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+.list a {
+  text-decoration: none;
 }
