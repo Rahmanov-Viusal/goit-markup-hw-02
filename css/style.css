@@ -61,7 +61,7 @@ ul {
 }
 
 /* заголовок в hero */
-.hero h1 {
+.hero .main-heading {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -117,7 +117,7 @@ ul {
 }
 
 /* имена разработчиков */
-.section-team h3 {
+.section-team .name {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -158,7 +158,7 @@ ul {
 }
 
 /* текст под картинками */
-.project p {
+.project .subtitle {
   color: var(--desc-text-color);
   font-weight: 400;
   font-size: 16px;
