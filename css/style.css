@@ -5,6 +5,7 @@
   --nav-color: #212121;
   --bg-button-filter: #f5f4fa;
   --project-title-color: #212121;
+  --bg-btn-hover: #188ce8;
 }
 
 /* вся страница */
@@ -78,6 +79,11 @@ ul {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
+}
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--bg-btn-hover);
+  cursor: pointer;
 }
 
 /* секция "о нас" */
