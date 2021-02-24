@@ -149,7 +149,8 @@ ul {
 }
 
 /* кнопки после наведения */
-.button .filter:hover {
+.button .filter:hover,
+.button .filter:focus {
   color: var(--button-color);
   background: var(--bg-button-color);
 }
