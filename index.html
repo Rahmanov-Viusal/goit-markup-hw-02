@@ -20,8 +20,8 @@
   </head>
   <body>
     <!--шапка сайта-->
-    <div class="container">
-      <header>
+    <header>
+      <div class="container">
         <nav>
           <a class="name-company" href="/index.html"
             ><span class="text">Web</span>Studio</a
@@ -43,16 +43,19 @@
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111">+380961111111</a></li>
         </ul>
-      </header>
-      <!--уникальный контент-->
-      <main>
+      </div>
+    </header>
+    <!--уникальный контент-->
+    <main>
+      <section>
         <div class="hero">
-          <section>
-            <h1 class="main-heading">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button-hero">Заказать услугу</button>
-          </section>
+          <h1 class="main-heading">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="button-hero">Заказать услугу</button>
         </div>
-        <section>
+      </section>
+      <!--особенности-->
+      <section>
+        <div class="container">
           <h2 hidden>О нас</h2>
           <ul class="feature-list">
             <li>
@@ -84,16 +87,22 @@
               </p>
             </li>
           </ul>
-        </section>
-        <section>
+        </div>
+      </section>
+      <!--Чем мы занимаемся-->
+      <section>
+        <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <p>
             <img src="./img/ph1.jpg" alt="занятие1" width="370" height="294" />
             <img src="./img/ph2.jpg" alt="занятие2" width="370" height="294" />
             <img src="./img/ph3.jpg" alt="занятие3" width="370" height="294" />
           </p>
-        </section>
-        <section class="section-team">
+        </div>
+      </section>
+      <!--team-->
+      <section class="section-team">
+        <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul>
             <li>
@@ -137,12 +146,15 @@
               <p class="text">UI Designer</p>
             </li>
           </ul>
-        </section>
-      </main>
-      <!--подвал сайта-->
-      <footer id="contact">
+        </div>
+      </section>
+    </main>
+    <!--подвал сайта-->
+    <footer class="footer" id="contact">
+      <div class="container">
         <a class="name-company" href="/index.html"
-          ><span class="text">Web</span>Studio</a
+          ><span class="text">Web</span
+          ><span class="footer-text"> Studio</span></a
         >
         <address>
           <ul class="contact">
@@ -159,8 +171,7 @@
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
           </ul>
         </address>
-      </footer>
-    </div>
-    <!--container-->
+      </div>
+    </footer>
   </body>
 </html>

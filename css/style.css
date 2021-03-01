@@ -18,7 +18,7 @@ html {
 }
 /* ======conainer====== */
 .container {
-  width: 1600px;
+  width: 1170px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -46,6 +46,9 @@ ul {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+}
+.footer-text {
+  color: #ffffff;
 }
 
 /* навигация в шапке */
@@ -196,4 +199,7 @@ ul {
 }
 .project .link {
   text-decoration: none;
+}
+.footer {
+  background-color: #2f303a;
 }

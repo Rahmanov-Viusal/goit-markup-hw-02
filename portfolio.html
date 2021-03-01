@@ -21,9 +21,9 @@
   </head>
 
   <body>
-    <div class="container">
-      <!--шапка сайта-->
-      <header>
+    <!--шапка сайта-->
+    <header>
+      <div class="container">
         <nav>
           <a class="name-company" href="/index.html"
             ><span class="text">Web</span>Studio</a
@@ -43,11 +43,14 @@
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111">+380961111111</a></li>
         </ul>
-      </header>
-      <!--уникальный контент-->
-      <main>
-        <h1 hidden>Портфолио</h1>
-        <div>
+      </div>
+    </header>
+    <!--уникальный контент-->
+    <main>
+      <section class="project">
+        <div class="container">
+          <h1 hidden>Портфолио</h1>
+          <!--button filter-->
           <ul class="button">
             <li class="button-item">
               <button type="button" class="filter">Все</button>
@@ -65,8 +68,7 @@
               <button type="button" class="filter">Маркетинг</button>
             </li>
           </ul>
-        </div>
-        <section class="project">
+          <!--портфолио-->
           <ul class="project-list">
             <li class="item">
               <a class="link" href="">
@@ -186,12 +188,16 @@
               </a>
             </li>
           </ul>
-        </section>
-      </main>
-      <!--подвал сайта-->
-      <footer id="contact">
+        </div>
+        <!--container-->
+      </section>
+    </main>
+    <!--подвал сайта-->
+    <footer class="footer" id="contact">
+      <div class="container">
         <a class="name-company" href="/index.html"
-          ><span class="text">Web</span>Studio</a
+          ><span class="text">Web</span
+          ><span class="footer-text">Studio</span></a
         >
         <address>
           <ul class="contact">
@@ -208,8 +214,7 @@
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
           </ul>
         </address>
-      </footer>
-    </div>
-    <!--container-->
+      </div>
+    </footer>
   </body>
 </html>
